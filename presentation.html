@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Giorgia Amanti">
+  <title>Exam Web Communication Project - Quattro Rioni Website</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^5/dist/reset.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^5/dist/reveal.css">
+  <style>
+    .reveal .sourceCode {  /* see #7635 */
+      overflow: visible;
+    }
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^5/dist/theme/solarized.css" id="theme">
+</head>
+
+
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide">
+  <h1 class="title" style="font-size: 6rem;">Exam Web Communication Project - Quattro Rioni
+Website</h1>
+  <p class="author">Giorgia Amanti</p>
+  <p class="date">13/12/2025</p>
+</section>
+
+<section id="quattro-rioni-cultural-association-of-cilavegna"
+class="slide level2">
+<h2>Quattro Rioni — Cultural Association of Cilavegna</h2>
+<p>The project was initiated to create a new web presence for the
+cultural association “Quattro Rioni” in Cilavegna. Founded in 2024, the
+association did not yet have a website to promote its activities in the
+town.</p>
+<p></p>
+<p>This project was important for me because, as a local Councillor in
+Cilavegna, it is my priority to support and promote associations that
+aim to develop the local community.</p>
+</section>
+
+<section id="project-goals" class="slide level2">
+<h2>Project Goals</h2>
+<ul>
+<li>Build a clean and responsive mini-site to present the
+association.<br />
+</li>
+<li>Provide an event calendar, gallery, and membership form.<br />
+</li>
+<li>Use tools covered in class: HTML, CSS, Bootstrap 5, JavaScript.</li>
+</ul>
+</section>
+
+<section class="slide level2">
+  <h2>Website Structure</h2>
+  <div style="display: flex; align-items: flex-start; gap: 100px; margin-top: 1px;">
+    
+
+    <div style="flex: 1;">
+      <p style="font-size: 30px; text-align: left;">
+        <strong>Homepage</strong>: contains the title, hero image, presentation, and a <em>call to action</em> 
+        to immediately join the association; in the center: about us, with a summary of the activity of 
+        the association, and a calendar made by Google Calendar to show upcoming events; at the bottom: 
+        a footer with e-mail and phone number, links to social pages, and a map to easily find Cilavegna 
+        and the association’s address.
+      </p>
+    </div>
+    
+ 
+    <div style="flex: 1; display: flex; flex-direction: column; gap: 2px; flex-shrink: 0;">
+      <img src="../assets/images/header-image.png" alt="Header image" width="400">
+      <img src="../assets/images/about-us-image.png" alt="About us image" width="400">
+      <img src="../assets/images/footer-image.png" alt="Footer image" width="400">
+    </div>
+    
+  </div>
+</section>
+
+
+<section class="slide level2">
+
+
+<p style="font-size: 30px;"><b>Gallery</b> contains images of past events (Bootstrap
+carousel).<br> 
+<b>Subscribe</b>: a form to collect name and email to become a
+member of “Quattro Rioni”.</p>
+
+<figure>
+<img data-src="../assets/images/form-image.png" alt="Form section" style="width: 550px;"/>
+<figcaption aria-hidden="true">Form section</figcaption>
+</figure>
+<p style="font-size: 30px;">All pages are connected with a <em>menu</em> for easy navigation.</p>
+</section>
+
+<section id="folder-organization" class="slide level2">
+<h2>Folder Organization</h2>
+<figure>
+<img data-src="../assets/images/Folder-organization.png"
+alt="Site Folder Organization" style="width: 400px;"/>
+<figcaption aria-hidden="true">Site Folder Organization</figcaption>
+</figure>
+</section>
+
+<section id="technology-i-used" class="slide level2">
+<h2>Technology I Used</h2>
+<ul>
+<li><strong>HTML</strong> for the structure of the web pages.<br />
+</li>
+<li><strong>CSS</strong> to customize the pages and apply styling.</li>
+</ul>
+</section>
+
+<section class="slide level2">
+<ul>
+<li><strong>Bootstrap 5</strong> for flexboxes, image carousel, icons
+and subscription form.</li>
+</ul>
+<figure>
+<img data-src="../assets/images/carousel-image.png"
+alt="Carousel made by Bootstrap 5" />
+<figcaption aria-hidden="true">Carousel made by Bootstrap 5</figcaption>
+</figure>
+</section>
+
+<section class="slide level2">
+<ul>
+<li><strong>JavaScript</strong> for interactivity at the end of the
+subscription process, displaying a “Thank you for subscribing to our
+community!” confirmation message.</li>
+</ul>
+<figure>
+<img data-src="../assets/images/javascript-screenshot.png"
+alt="JavaScript for interactivity" />
+<figcaption aria-hidden="true">JavaScript for interactivity</figcaption>
+</figure>
+</section>
+
+<section id="long-term-plans" class="slide level2">
+<h2>Long-Term Plans</h2>
+<ol type="1">
+<li><p style="font-size: 30px;">Implement a fully functional mailing list.<br />
+Connect the subscription form to a real mailing-list service, such as
+Mailchimp, to automate sign-ups and email campaigns.</p></li>
+<li><p style="font-size: 30px;">Add an online donation page.<br />
+Create a donations page with online payment options (PayPal, Stripe) to
+support community events and charitable initiatives.</p></li>
+<li><p style="font-size: 30px"> A more professional event management system.</p></li>
+<li><p style="font-size: 30px;">Add a “Blog” or “News” section.<br />
+Provide updates, event summaries, and cultural content for the
+community.</p></li>
+</ol>
+</section>
+<section id="things-i-learned" class="slide level2">
+<h2>Things I Learned</h2>
+<ul>
+<li>How to organize a website clearly (homepage, sections, footer)<br />
+</li>
+<li>How to use Bootstrap components and customize them with CSS<br />
+</li>
+<li>How to make the site responsive for mobile and desktop (even if this
+was one of the hardest challenges)</li>
+<li>How to use a simple JavaScript for interactivity</li>
+</ul>
+</section>
+<section id="thank-you-for-yout-attention" class="slide level2">
+<h2>Thank you for your attention</h2>
+</section>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/reveal.js@^5/dist/reveal.js"></script>
+
+  <!-- reveal.js plugins -->
+  <script src="https://unpkg.com/reveal.js@^5/plugin/notes/notes.js"></script>
+  <script src="https://unpkg.com/reveal.js@^5/plugin/search/search.js"></script>
+  <script src="https://unpkg.com/reveal.js@^5/plugin/zoom/zoom.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+        // Display controls in the bottom right corner
+        controls: true,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: true,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'bottom-right',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: false,
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: false,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: true,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'default',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: true,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'slide',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'fade',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // reveal.js plugins
+        plugins: [
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    </body>
+</html>
